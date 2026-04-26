@@ -1,0 +1,152 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15 May 2025, 9:48:41 am
+    Author     : Mahadev
+*/
+/* Global Color Themes (Age Based) */
+:root {
+  --color-veryyoung: #ffb6c1;
+  --color-young: #add8e6;
+  --color-mid: #90ee90;
+  --color-senior: #f0e68c;
+  --text-color: #333;
+  --nav-bg: #fff;
+}
+
+/* Body Styling */
+body {
+  margin: 0;
+  margin-left: 80px;
+  padding: 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #f9f9f9;
+  color: var(--text-color);
+}
+
+/* Top Navbar */
+.top-navbar {
+  background-color: var(--nav-bg);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Left Sidebar Categories */
+.sidebar {
+  width: 220px;
+  background-color: #fff;
+  position: fixed;
+  top: 58px;
+  left: 0;
+  bottom: 0;
+  padding-top: 70px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  overflow-y: auto;
+}
+
+/* Sidebar Links */
+.sidebar a {
+  display: block;
+  padding: 14px 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  border-bottom: 1px solid #eee;
+  transition: all 0.3s ease;
+}
+
+.sidebar a:hover {
+  background-color: #ffeb3b;
+  color: #000;
+  transform: translateX(5px);
+}
+
+/* Main Content Area */
+.main-content {
+  margin-left: 230px;
+  padding: 20px;
+}
+
+/* Fun Cards */
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Buttons */
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+/* Dynamic Color Class (apply via JSP or JS according to age) */
+.veryyoung-bg { background-color: var(--color-veryyoung); }
+.young-bg { background-color: var(--color-young); }
+.mid-bg { background-color: var(--color-mid); }
+.senior-bg { background-color: var(--color-senior); }
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fadeIn {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Active Nav Item Style */
+.sidebar a.active {
+  background-color: #ffe082;
+  color: #000;
+}
+
+.button.btn-highlight {
+  background-color: #4caf50;
+  color: white;
+}
+/* Active Nav Item Style */
+.sidebar a.active {
+  background-color: #ffe082;
+  color: #000;
+}
+
+.button.btn-highlight {
+  background-color: #4caf50;
+  color: white;
+}
+
+.page-item {
+
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f9fc;
+}
+h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.btn {
+    border-radius: 8px;
+}
