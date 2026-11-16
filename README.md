@@ -29,6 +29,14 @@ KLAP (Kids Learning and Assessment Program) is a web-based educational platform 
 - Test submission and result management
 - Reward-based learning experience
 
+  
+  ### 🪙 Coin & Premium Learning Module
+
+- Children can earn coins through learning activities.
+- Redeem earned coins.
+- Use coins to unlock premium learning content.
+- Generate PDF reports for parents showing coin usage and premium content unlocking details.
+
 ## 🛠️ Technologies Used
 
 | Category | Technologies |
